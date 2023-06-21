@@ -36,7 +36,7 @@ async def altspam(client: Client, message: Message):
             await asyncio.sleep(0.3)
 
     else:
-        await message.reply_text(f"😈 **ᴜsᴀɢᴇ:**\n  » !spam 13 Altron\n  » !spam 13 <ʀᴇᴘʟʏ ᴛᴏ ᴛᴇxᴛ>\n\n**To do spam with replying to a user:**\n  » !spam 13 Altron <ʀᴇᴘʟʏ ᴛᴏ ᴜꜱᴇʀ>")
+        await message.reply_text(f"😈 **ᴜsᴀɢᴇ:**\n  » !spam 13 Radha\n  » !spam 13 <ʀᴇᴘʟʏ ᴛᴏ ᴛᴇxᴛ>\n\n**To do spam with replying to a user:**\n  » !spam 13 Radha <ʀᴇᴘʟʏ ᴛᴏ ᴜꜱᴇʀ>")
 
 
 @Client.on_message(filters.command(["pspam", "pornspam"], [".", "/", "!"]) & filters.user(SUDO_USERS))
