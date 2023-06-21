@@ -1,4 +1,4 @@
-# © @PyXen
+# © @GhostRadha
 
 import heroku3
 
