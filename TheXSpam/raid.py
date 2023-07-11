@@ -39,7 +39,7 @@ async def raid(xspam: Client, message: Message):
             ok = await xspam.get_users(user_id)
             id = ok.id
             if id in THE_ALTS:
-                  await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀʟᴛʀᴏɴ'ꜱ ᴏᴡɴᴇʀ")
+                  await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ʀᴀᴅʜᴀ'ꜱ ᴏᴡɴᴇʀ")
             elif id == OWNER_ID:
                   await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ.")
             elif id in SUDO_USERS:
