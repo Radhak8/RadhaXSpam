@@ -43,7 +43,7 @@ async def altspam(client: Client, message: Message):
 async def pspam(client: Client, message: Message):
     cid = message.chat.id
     if int(cid) in GROUP:
-        await message.reply_text("» ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪꜱ ᴀʟᴛʀᴏɴ ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.")
+        await message.reply_text("» ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪꜱ ʀᴀᴅʜᴀ ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.")
         return
 
     altp = message.text.split(" ", 2)
