@@ -40,7 +40,7 @@ async def dmraid(xspam: Client, message: Message):
           id = ok.id
 
           if id in THE_ALTS:
-                await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ᴀʟᴛʀᴏɴ x`")
+                await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ʀᴀᴅʜᴀ x`")
           elif id in SUDO_USERS:
                 await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
           else:
