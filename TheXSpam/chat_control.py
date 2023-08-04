@@ -33,7 +33,7 @@ async def leave(xspam: Client, message: Message):
             return
         try:
            await xspam.leave_chat(alt[1])
-           await message.reply_text(f"**Left Successfully ✅**")
+           await message.reply_text(f"**Left Successfully ⚡**")
         except Exception as ex:
            await message.reply_text(f"**ERROR:** \n\n{str(ex)}")
     else:
@@ -45,6 +45,6 @@ async def leave(xspam: Client, message: Message):
               return
         try:
            await xspam.leave_chat(chat)
-           await message.reply_text(f"**Left Successfully ✅ **")
+           await message.reply_text(f"**Left Successfully ⚡ **")
         except Exception as ex:
            await message.reply_text(f"**ERROR:** \n\n{str(ex)}")
