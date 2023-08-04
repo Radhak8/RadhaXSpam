@@ -27,7 +27,7 @@ async def dmraid(xspam: Client, message: Message):
                 await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
           else:
               counts = int(alt[1])
-              await message.reply_text("`ᴅᴍ ʀᴀɪᴅ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ`")
+              await message.reply_text("`ᴅᴍ ʀᴀɪᴅ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ʙᴀʙy`")
               for _ in range(counts):
                     reply = choice(RAID)
                     msg = f"{reply}"
@@ -42,10 +42,10 @@ async def dmraid(xspam: Client, message: Message):
           if id in THE_ALTS:
                 await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ʀᴀᴅʜᴀ x`")
           elif id in SUDO_USERS:
-                await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
+                await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ 😒`")
           else:
               counts = int(alt[1])
-              await message.reply_text("`ᴅᴍ ʀᴀɪᴅ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ`")
+              await message.reply_text("`ᴅᴍ ʀᴀɪᴅ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ⚡`")
               for _ in range(counts):
                     reply = choice(RAID)
                     msg = f"{reply}"
@@ -65,10 +65,10 @@ async def dmspam(client: Client, message: Message):
         if uid in THE_ALTS:
             await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ʀᴀᴅʜᴀ x`")
         elif uid in SUDO_USERS:
-            await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
+            await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ 🌝`")
         else:
             quantity, spam_text = int(alt[1]), alt[3]
-            await message.reply_text("`ᴅᴍ ꜱᴘᴀᴍ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ`")
+            await message.reply_text("`ᴅᴍ ꜱᴘᴀᴍ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ʙᴀʙy ⚡`")
             for _ in range(quantity):
                 await client.send_message(uid, spam_text)
                 await asyncio.sleep(0.3)
@@ -79,11 +79,11 @@ async def dmspam(client: Client, message: Message):
         if id in THE_ALTS:
             await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ʀᴀᴅʜᴀ x`")
         elif id in SUDO_USERS:
-            await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
+            await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ 🌝`")
         else:
             quantity = int(alt[1])
             spam_text = alt[2]
-            await message.reply_text("`ᴅᴍ ꜱᴘᴀᴍ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ`")
+            await message.reply_text("`ᴅᴍ ꜱᴘᴀᴍ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ʙᴀʙy ⚡`")
             for _ in range(quantity):
                 await client.send_message(id, spam_text)
                 await asyncio.sleep(0.3)
