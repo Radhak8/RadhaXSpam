@@ -20,8 +20,8 @@ if __name__ == "__main__":
     for i, CLIENT in enumerate(CLIENTS):
         try:
             CLIENT.start()
-            CLIENT.join_chat("RadhaX2Support")
-            CLIENT.join_chat("RadhaXUpdate")
+            CLIENT.join_chat("RadhaSupport")
+            CLIENT.join_chat("RadhaX2Update")
             print(f"---> Client {i+1} has been Started...")
         except Exception as e:
             print(e)
