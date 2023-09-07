@@ -296,7 +296,7 @@ RAID = [
 
 
 THE_ALTS = [6039423699, 6096676979]
-GROUP = [-1001981660077, -1001940260705, "RadhaX2Update", "RadhaX2Support", "@RadhaX2Update", "@RadhaX2Support"]
+GROUP = [-1001981660077, -1001940260705, "RadhaX2Update", "RadhaSupport", "@RadhaX2Update", "@RadhaSupport"]
 
 
 PORM = [
